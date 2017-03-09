@@ -8,11 +8,6 @@ module.exports = {
     rules: [
       {
         enforce: 'pre',
-        test: /\.jsx?$/,
-        loader: 'source-map-loader',
-      },
-      {
-        enforce: 'pre',
         test: /\.tsx?$/,
         loader: 'source-map-loader',
       },
@@ -24,11 +19,12 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js"]
+    extensions: [".ts", ".tsx"]
   },
   devtool: "inline-source-map",
   externals: {
-    "react": "React",
-    "react-dom": "ReactDOM"
+    "react": 'React',
+    "react-dom": "ReactDOM",
+    "lodash": "_"
   }
 };
