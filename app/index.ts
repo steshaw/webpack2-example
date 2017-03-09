@@ -1,5 +1,5 @@
-import _ from 'lodash';
-import bar from './bar';
+import * as _ from "lodash";
+import bar from "./bar";
 
 function component() {
   var element = document.createElement('div');

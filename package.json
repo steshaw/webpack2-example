@@ -17,9 +17,12 @@
     "url": "https://github.com/steshaw/webpack2-example.git"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.54",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
     "webpack": "^2.2.1"
   }
 }
