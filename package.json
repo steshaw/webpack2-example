@@ -2,27 +2,38 @@
   "name": "webpack2-example",
   "version": "0.1.0",
   "description": "Just playing around with Webpack v2",
-  "keywords": [
-    "webpack",
-    "es6"
-  ],
-  "author": "Steven Shaw <steven@steshaw.org>",
-  "homepage": "https://github.com/steshaw/webpack2-example",
-  "license": "BSD-2-Clause",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@types/lodash": "^4.14.54",
+    "@types/react": "^15.0.14",
+    "@types/react-dom": "^0.14.23",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "source-map-loader": "^0.1.6"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "source-map-loader": "^0.1.6",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1"
+  },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/steshaw/webpack2-example.git"
+    "url": "git+https://github.com/steshaw/webpack2-example.git"
   },
-  "dependencies": {
-    "@types/lodash": "^4.14.54",
-    "lodash": "^4.17.4"
+  "keywords": [
+    "webpack",
+    "typescript",
+    "react"
+  ],
+  "author": "Steven Shaw <steven@steshaw.org>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/steshaw/webpack2-example/issues"
   },
-  "devDependencies": {
-    "ts-loader": "^2.0.1",
-    "typescript": "^2.2.1",
-    "webpack": "^2.2.1"
-  }
+  "homepage": "https://github.com/steshaw/webpack2-example#readme"
 }
