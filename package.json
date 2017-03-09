@@ -1,0 +1,22 @@
+{
+  "name": "webpack2-example",
+  "version": "0.1.0",
+  "description": "Just playing around with Webpack v2",
+  "keywords": [
+    "webpack",
+    "es6"
+  ],
+  "author": "Steven Shaw <steven@steshaw.org>",
+  "homepage": "https://github.com/steshaw/webpack2-example",
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steshaw/webpack2-example.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
